@@ -1,0 +1,19 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "Simple Node.js server with health route",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
