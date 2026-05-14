@@ -40,6 +40,6 @@ jobs:
             key: ${{secrets.EC2_SSH_PRIVATE_KEY}}
             script: |
                cd /home/ubuntu/CI-CD-EC2
-
+               git pull origin main
                docker compose down 
                docker compose up -d --build
