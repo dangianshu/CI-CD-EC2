@@ -9,7 +9,7 @@ app.use(express.json());
 app.get('/health', (req, res) => {
   res.status(200).json({
     status: 'OK',
-    message: 'Server is healthy but little bit laggy:----------------------->::::',
+    message: 'Server is healthy but little bit laggy::::::<----------------------->::::',
     timestamp: new Date().toISOString(),
     uptime: process.uptime()
   });
